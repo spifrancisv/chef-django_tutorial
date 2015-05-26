@@ -6,8 +6,7 @@ description      'Installs/Configures django_tutorial'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.1.0'
 
-depends "application_python"
-depends "application_nginx"
-depends "application", "~> 4.1.6"
-depends "database"
-
+depends 'application_python', '~> 3.0'
+depends 'application_nginx', '~> 2.0'
+depends 'application', '~> 4.1.6'
+depends 'database'
