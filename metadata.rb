@@ -8,5 +8,5 @@ version          '0.1.0'
 
 depends 'application_python'
 depends 'application_nginx'
-depends 'application', '~> 3.0'
+depends 'application', '~> 4.0'
 depends 'database'
